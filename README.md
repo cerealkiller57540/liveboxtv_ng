@@ -26,14 +26,27 @@ historique [AkA57/liveboxtvuhd](https://github.com/AkA57/liveboxtvuhd) — voir
 
 ## 📦 Installation
 
-### Via HACS (dépôt personnalisé)
-1. HACS → Intégrations → menu ⋮ → **Dépôts personnalisés**.
-2. Ajouter `https://github.com/cerealkiller57540/liveboxtv_ng`, catégorie **Integration**.
-3. Installer **Orange Livebox TV UHD**, puis **redémarrer** Home Assistant.
+### Installation via HACS
 
-### Manuelle
-Copier `custom_components/liveboxtv_ng/` dans le dossier `config/custom_components/` de
-Home Assistant, puis redémarrer.
+1. Ajouter ce dépôt comme **dépôt personnalisé** dans HACS :
+
+[![Ajouter le dépôt](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=cerealkiller57540&repository=liveboxtv_ng&category=Integration)
+
+2. Installer l'intégration **Orange Livebox TV UHD** via HACS.
+3. Redémarrer Home Assistant.
+4. Configurer l'intégration (généralement le décodeur est déjà **découvert** automatiquement) :
+
+[![Ajouter l'intégration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=liveboxtv_ng)
+
+### Installation manuelle
+
+1. Télécharger les fichiers de l'intégration depuis ce dépôt.
+2. Copier le dossier `custom_components/liveboxtv_ng/` dans le répertoire `custom_components/`
+   de votre configuration Home Assistant.
+3. Redémarrer Home Assistant.
+4. Configurer l'intégration :
+
+[![Ajouter l'intégration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=liveboxtv_ng)
 
 ## ⚙️ Configuration
 
